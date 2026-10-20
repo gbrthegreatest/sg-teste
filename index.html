@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#071123" />
+  <meta name="description" content="Superior Genes — Estúdio digital para landing pages, identidade visual, conteúdo e presença digital com DNA próprio." />
+  <meta property="og:title" content="Superior Genes — Marcas com DNA digital" />
+  <meta property="og:description" content="Landing pages, design, conteúdo e estrutura digital com estratégia, clareza e personalidade." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="./assets/favicon.png" type="image/png" />
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Superior Genes — Estúdio Digital</title>
+  <script src="./config.js" defer></script>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <svg class="icon-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7 18.5 3 21V6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H7Z"/><path d="M8 9h8M8 13h5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="3.2"/></symbol>
+    <symbol id="i-loop" viewBox="0 0 24 24"><path d="M7 8.5c1.7-2 4-3.5 6-3.5 2.8 0 5 2.2 5 5 0 2.6-1.7 4.1-3.9 5.8-1.6 1.2-2.9 2.2-4.1 3.7-1.7 2-4 3.5-6 3.5-2.8 0-5-2.2-5-5 0-2.6 1.7-4.1 3.9-5.8C5.5 11 6 10.5 7 8.5Zm10 7c-1.7 2-4 3.5-6 3.5-2.8 0-5-2.2-5-5 0-2.6 1.7-4.1 3.9-5.8 1.6-1.2 2.9-2.2 4.1-3.7 1.7-2 4-3.5 6-3.5 2.8 0 5 2.2 5 5 0 2.6-1.7 4.1-3.9 5.8-1.6 1.2-2.9 2.2-4.1 3.7Z"/></symbol>
+    <symbol id="i-feather" viewBox="0 0 24 24"><path d="M20 3c-6 .8-12.8 7.2-13.8 13.8L5 21l4.2-1.2C15.8 18.8 22.2 12 23 6l-3-3ZM8 16l4-4m-5 2h4"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M21 11.6a9 9 0 0 1-13.4 7.8L3 21l1.7-4.5a9 9 0 1 1 16.3-4.9Z"/><path d="M8.8 8.2c.3-.4.7-.4 1 0l1.2 1.7c.2.3.2.6 0 .8l-.6.7c.8 1.4 1.9 2.3 3.3 2.9l.7-.6c.3-.2.6-.2.8 0l1.6 1.1c.4.3.4.7 0 1.1-.8.8-1.8 1-3 .6-2.4-.8-5-3.4-5.9-5.8-.3-1.1-.1-1.9.9-2.5Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M8 4H5a2 2 0 0 0-2 2c0 8 7 15 15 15a2 2 0 0 0 2-2v-3l-5-2-2 2a13 13 0 0 1-5-5l2-2-2-5Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 2.6 6.6L22 11l-6 4.1L18.2 22 12 17.8 5.8 22 8 15.1 2 11l7.4-2.4L12 2Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></symbol>
+  </svg>
+
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress"></span></div>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Superior Genes, início">
+        <img class="brand-logo" src="./assets/logo-superior-genes-full.png" alt="Superior Genes Estúdio Digital" />
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#manifesto">Essência</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="#contato" class="btn btn-ghost header-cta">Vamos conversar <svg class="icon"><use href="#i-arrow-up"/></svg></a>
+      <button class="menu-button" id="menu-button" type="button" aria-label="Abrir menu" aria-controls="main-nav" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> ESTÚDIO DIGITAL COM DNA PRÓPRIO</div>
+          <h1 id="hero-title">Marcas com <em>visão</em>, presença com <em>estrutura</em> e projetos com <em>evolução contínua</em>.</h1>
+          <p class="hero-lead">A Superior Genes nasce da união entre três ideias: <strong>DNA</strong> para identidade, <strong>infinito</strong> para crescimento contínuo e <strong>coruja</strong> para visão estratégica. Criamos páginas, marcas e conteúdos que ajudam pequenos negócios a se apresentar com clareza e profissionalismo.</p>
+          <div class="hero-actions">
+            <a href="#contato" class="btn btn-primary">Começar meu projeto <svg class="icon"><use href="#i-arrow-up"/></svg></a>
+            <a href="#portfolio" class="btn btn-text">Ver demonstrações <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="hero-signature">
+            <div class="signature-card"><svg class="icon"><use href="#i-loop"/></svg><span>DNA + infinito + inteligência visual</span></div>
+            <div class="signature-card"><svg class="icon"><use href="#i-eye"/></svg><span>Estratégia para sites, marcas e presença digital</span></div>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal" aria-hidden="true">
+          <div class="helix helix-left"></div>
+          <div class="helix helix-right"></div>
+          <div class="owl-eye eye-left"><span></span></div>
+          <div class="owl-eye eye-right"><span></span></div>
+          <div class="center-mark">
+            <img src="./assets/logo-dna.png" alt="" />
+          </div>
+          <div class="hero-note note-top">VISÃO ESTRATÉGICA</div>
+          <div class="hero-note note-right">DNA DIGITAL</div>
+          <div class="hero-note note-bottom">EVOLUÇÃO CONTÍNUA</div>
+        </div>
+      </div>
+
+      <div class="container hero-marquee" aria-label="Áreas da Superior Genes">
+        <div class="marquee-track">
+          <div class="marquee-group">
+            <span>LANDING PAGES</span><i></i>
+            <span>IDENTIDADE VISUAL</span><i></i>
+            <span>REDES SOCIAIS</span><i></i>
+            <span>CONTEÚDO PARA LOJAS</span><i></i>
+            <span>ESTRATÉGIA DE APRESENTAÇÃO</span><i></i>
+            <span>SUPORTE E AJUSTES</span><i></i>
+          </div>
+          <div class="marquee-group" aria-hidden="true">
+            <span>LANDING PAGES</span><i></i>
+            <span>IDENTIDADE VISUAL</span><i></i>
+            <span>REDES SOCIAIS</span><i></i>
+            <span>CONTEÚDO PARA LOJAS</span><i></i>
+            <span>ESTRATÉGIA DE APRESENTAÇÃO</span><i></i>
+            <span>SUPORTE E AJUSTES</span><i></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="manifesto" class="section section-dark">
+      <div class="container">
+        <div class="section-head reveal split-head">
+          <div>
+            <p class="section-kicker"><span>01 /</span> ESSÊNCIA DA MARCA</p>
+            <h2>Uma identidade criada para <span class="gradient-text">pensar antes de publicar</span>.</h2>
+          </div>
+          <p class="section-desc">A Superior Genes não quer parecer apenas “mais uma agência de IA”. A proposta é traduzir estratégia em algo visível, útil e bem acabado — com peças que pareçam pensadas, não apenas geradas.</p>
+        </div>
+
+        <div class="manifest-grid">
+          <article class="manifest-card reveal">
+            <span class="manifest-icon"><svg class="icon"><use href="#i-feather"/></svg></span>
+            <h3>DNA de marca</h3>
+            <p>Criamos uma base visual e verbal para que o negócio tenha coerência no site, no WhatsApp, nas redes sociais e nas peças digitais.</p>
+          </article>
+          <article class="manifest-card reveal">
+            <span class="manifest-icon"><svg class="icon"><use href="#i-eye"/></svg></span>
+            <h3>Olhar de coruja</h3>
+            <p>Observamos detalhes, contexto e clareza. O simbolismo da coruja entra como visão, inteligência e leitura cuidadosa antes de propor qualquer solução.</p>
+          </article>
+          <article class="manifest-card reveal">
+            <span class="manifest-icon"><svg class="icon"><use href="#i-loop"/></svg></span>
+            <h3>Evolução contínua</h3>
+            <p>O infinito representa ajustes constantes. Não pensamos só na entrega inicial, mas no que pode ser refinado para aumentar valor e percepção.</p>
+          </article>
+        </div>
+
+        <div class="brand-story reveal">
+          <div class="story-copy">
+            <p class="story-label">POSICIONAMENTO</p>
+            <h3>Design, estrutura e apoio operacional para negócios que querem se apresentar melhor.</h3>
+            <p>A Superior Genes foi pensada para comerciantes, prestadores de serviço e pequenas empresas que não querem perder tempo aprendendo ferramentas, montando páginas do zero ou improvisando a comunicação digital. O foco é transformar ideias em entregas publicáveis e profissionais.</p>
+          </div>
+          <div class="story-panel">
+            <div class="story-pill"><strong>Visão</strong><span>clareza para decidir</span></div>
+            <div class="story-pill"><strong>Precisão</strong><span>acabamento e coerência</span></div>
+            <div class="story-pill"><strong>Movimento</strong><span>ajustes e evolução</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section">
+      <div class="container">
+        <div class="section-head reveal split-head">
+          <div>
+            <p class="section-kicker"><span>02 /</span> O QUE FAZEMOS</p>
+            <h2>Seu negócio com presença mais <span class="gradient-text">forte e organizada</span>.</h2>
+          </div>
+          <p class="section-desc">Escolha a solução principal ou combine serviços. A ideia é oferecer algo enxuto, bem executado e fácil de apresentar para o cliente final.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card highlight reveal">
+            <div class="service-top"><span class="service-badge">/01</span><span class="service-icon"><svg class="icon"><use href="#i-loop"/></svg></span></div>
+            <h3>Landing pages<br/>e páginas de apresentação</h3>
+            <p>Páginas com identidade, serviços, prova visual, contato rápido e estrutura pronta para receber orçamentos.</p>
+            <ul>
+              <li><svg class="icon"><use href="#i-check"/></svg> Layout responsivo</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> WhatsApp e formulário</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Estrutura para campanhas</li>
+            </ul>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-top"><span class="service-badge">/02</span><span class="service-icon"><svg class="icon"><use href="#i-feather"/></svg></span></div>
+            <h3>Identidade visual<br/>e materiais digitais</h3>
+            <p>Logotipos, direção visual, mini-sistemas de marca e peças que criam continuidade entre site, redes e comunicação.</p>
+            <ul>
+              <li><svg class="icon"><use href="#i-check"/></svg> Logo e paleta</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Artes digitais</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Consistência visual</li>
+            </ul>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-top"><span class="service-badge">/03</span><span class="service-icon"><svg class="icon"><use href="#i-chat"/></svg></span></div>
+            <h3>Conteúdo<br/>para lojas e negócios</h3>
+            <p>Textos, descrições, apresentações e materiais de apoio para produtos, serviços, páginas e perfis comerciais.</p>
+            <ul>
+              <li><svg class="icon"><use href="#i-check"/></svg> Textos claros</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> SEO básico</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Apoio operacional</li>
+            </ul>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-top"><span class="service-badge">/04</span><span class="service-icon"><svg class="icon"><use href="#i-star"/></svg></span></div>
+            <h3>Planos recorrentes<br/>de manutenção</h3>
+            <p>Atualizações, ajustes, criativos periódicos e apoio para manter a presença digital viva após a entrega inicial.</p>
+            <ul>
+              <li><svg class="icon"><use href="#i-check"/></svg> Ajustes mensais</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Artes e textos</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Evolução contínua</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-emphasis">
+      <div class="container value-layout">
+        <div class="value-copy reveal">
+          <p class="section-kicker"><span>03 /</span> POR QUE ESSA MARCA EXISTE</p>
+          <h2>Para entregar algo que pareça <span class="gradient-text">pensado, não improvisado</span>.</h2>
+          <p>Muita gente já sabe que IA existe. O diferencial agora não é apenas gerar. É escolher, organizar, revisar e transformar isso em uma presença que faça sentido para o negócio.</p>
+          <div class="value-points">
+            <div><strong>Mais clareza</strong><span>mensagem mais fácil de entender</span></div>
+            <div><strong>Mais percepção</strong><span>aparência profissional sem excesso</span></div>
+            <div><strong>Mais praticidade</strong><span>menos tempo perdido tentando montar tudo sozinho</span></div>
+          </div>
+        </div>
+        <div class="value-visual reveal" aria-hidden="true">
+          <div class="owl-frame">
+            <div class="owl-wing left"></div>
+            <div class="owl-wing right"></div>
+            <div class="owl-mask"></div>
+            <div class="owl-ring ring-left"></div>
+            <div class="owl-ring ring-right"></div>
+            <div class="owl-core">SG</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-head reveal split-head">
+          <div>
+            <p class="section-kicker"><span>04 /</span> NOSSO LABORATÓRIO</p>
+            <h2>Ideias que viram <span class="gradient-text">experiência</span>.</h2>
+          </div>
+          <p class="section-desc">Demonstrações autorais para mostrar estrutura, layout, comunicação e possibilidades de navegação. Clique para abrir cada exemplo.</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <a class="portfolio-card reveal" href="https://agenciasuperiorgenes.github.io/clima-ideal/" target="_blank" rel="noopener noreferrer">
+            <div class="project-visual theme-clima">
+              <div class="project-brand">CLIMA<span>IDEAL</span></div>
+              <h3>Clima sob<br/>controle.</h3>
+              <span class="project-chip">Ver página completa ↗</span>
+            </div>
+            <div class="project-copy">
+              <div>
+                <strong>Clima Ideal</strong>
+                <span>Landing page · Institucional</span>
+              </div>
+              <span class="project-label">CONCEITO</span>
+            </div>
+          </a>
+
+          <a class="portfolio-card reveal" href="https://agenciasuperiorgenes.github.io/vento-clima/" target="_blank" rel="noopener noreferrer">
+            <div class="project-visual theme-vento">
+              <div class="project-brand vento">vento.<small>CLIMATIZAÇÃO</small></div>
+              <h3>Respire<br/>o novo.</h3>
+              <span class="project-chip">Ver página completa ↗</span>
+            </div>
+            <div class="project-copy">
+              <div>
+                <strong>Vento Clima</strong>
+                <span>Landing page · Conversão</span>
+              </div>
+              <span class="project-label">CONCEITO</span>
+            </div>
+          </a>
+
+          <a class="portfolio-card reveal" href="https://agenciasuperiorgenes.github.io/nexo-ar/" target="_blank" rel="noopener noreferrer">
+            <div class="project-visual theme-nexo">
+              <div class="project-brand nexo">nexo.<span>ar</span><small>CLIMATIZAÇÃO</small></div>
+              <h3>O ar certo<br/>muda tudo.</h3>
+              <span class="project-chip">Ver página completa ↗</span>
+            </div>
+            <div class="project-copy">
+              <div>
+                <strong>Nexo Ar</strong>
+                <span>Landing page · Interativa</span>
+              </div>
+              <span class="project-label">CONCEITO</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="portfolio-note reveal"><svg class="icon"><use href="#i-star"/></svg><span>Os projetos acima são <strong>demonstrações fictícias de portfólio</strong>, criadas para apresentar possibilidades visuais e estruturais.</span></div>
+      </div>
+    </section>
+
+    <section id="metodo" class="section section-dark">
+      <div class="container">
+        <div class="section-head reveal split-head">
+          <div>
+            <p class="section-kicker"><span>05 /</span> COMO FUNCIONA</p>
+            <h2>Uma forma de trabalho <span class="gradient-text">leve, clara e possível</span>.</h2>
+          </div>
+          <p class="section-desc">Pensado para você vender com clareza, organizar as entregas e avançar com projetos pequenos sem complicação desnecessária.</p>
+        </div>
+        <div class="method-grid">
+          <article class="method-card reveal"><span class="method-index">01</span><h3>Contato inicial</h3><p>Entendemos o objetivo, o tipo de negócio e o que precisa ser resolvido primeiro.</p></article>
+          <article class="method-card reveal"><span class="method-index">02</span><h3>Escopo e proposta</h3><p>Definimos o que está incluído, prazo, valor, revisões e forma de pagamento.</p></article>
+          <article class="method-card reveal"><span class="method-index">03</span><h3>Criação e ajustes</h3><p>Desenvolvemos a primeira versão, coletamos feedback e refinamos dentro do combinado.</p></article>
+          <article class="method-card reveal"><span class="method-index">04</span><h3>Entrega e evolução</h3><p>Publicação, suporte inicial e possibilidade de manutenção recorrente quando fizer sentido.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="planos" class="section">
+      <div class="container">
+        <div class="section-head reveal split-head">
+          <div>
+            <p class="section-kicker"><span>06 /</span> PLANOS RECORRENTES</p>
+            <h2>Depois da entrega, sua marca pode <span class="gradient-text">continuar evoluindo</span>.</h2>
+          </div>
+          <p class="section-desc">Opções enxutas para manter a página atualizada, melhorar a apresentação e criar constância sem inflar o escopo.</p>
+        </div>
+
+        <div class="plans-grid">
+          <article class="plan-card reveal">
+            <span class="plan-tag">BÁSICO</span>
+            <h3>Presença Essencial</h3>
+            <p class="plan-price">R$ 199<span>/mês</span></p>
+            <ul>
+              <li><svg class="icon"><use href="#i-check"/></svg> Pequenos ajustes no site</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Revisão de contato e textos curtos</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Até 1 hora de suporte mensal</li>
+            </ul>
+          </article>
+          <article class="plan-card featured reveal">
+            <span class="plan-tag">RECOMENDADO</span>
+            <h3>Presença em Movimento</h3>
+            <p class="plan-price">R$ 449<span>/mês</span></p>
+            <ul>
+              <li><svg class="icon"><use href="#i-check"/></svg> Ajustes na página e atualização visual</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> 4 artes digitais por mês</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Apoio para campanhas e comunicação</li>
+            </ul>
+          </article>
+          <article class="plan-card reveal">
+            <span class="plan-tag">AMPLIADO</span>
+            <h3>Marca em Evolução</h3>
+            <p class="plan-price">Sob consulta</p>
+            <ul>
+              <li><svg class="icon"><use href="#i-check"/></svg> Rotina personalizada</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Conteúdo, criativos e páginas</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Acompanhamento mais próximo</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-dark">
+      <div class="container">
+        <div class="section-head reveal split-head">
+          <div>
+            <p class="section-kicker"><span>07 /</span> DÚVIDAS FREQUENTES</p>
+            <h2>Perguntas que ajudam a <span class="gradient-text">fechar melhor</span>.</h2>
+          </div>
+          <p class="section-desc">Uma base pronta para responder às dúvidas mais comuns de quem chega até a Superior Genes.</p>
+        </div>
+        <div class="faq-list" id="faq-list">
+          <details class="faq-item reveal"><summary>Vocês entregam apenas landing pages?<svg class="icon"><use href="#i-arrow"/></svg></summary><p>Não. A landing page pode ser o serviço principal, mas também desenvolvemos identidade visual, materiais digitais, conteúdo e suporte recorrente.</p></details>
+          <details class="faq-item reveal"><summary>É possível começar com um projeto pequeno?<svg class="icon"><use href="#i-arrow"/></svg></summary><p>Sim. A proposta da Superior Genes é justamente permitir que pequenos negócios comecem de forma viável e evoluam aos poucos.</p></details>
+          <details class="faq-item reveal"><summary>O atendimento pode ser feito por WhatsApp?<svg class="icon"><use href="#i-arrow"/></svg></summary><p>Sim. O contato inicial, briefing e envio de materiais podem ser feitos pelo WhatsApp. Depois, o escopo pode ser formalizado por proposta e contrato.</p></details>
+          <details class="faq-item reveal"><summary>Vocês também fazem manutenção depois da entrega?<svg class="icon"><use href="#i-arrow"/></svg></summary><p>Sim. Há espaço para ajustes pontuais ou planos recorrentes, dependendo do tipo de necessidade do cliente.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact-section">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal">
+          <p class="section-kicker"><span>08 /</span> VAMOS CONVERSAR</p>
+          <h2>Se a sua ideia precisa de forma, a gente pode começar por aqui.</h2>
+          <p class="section-desc">Preencha o formulário ou use o botão do WhatsApp. A mensagem é preparada no seu dispositivo e pode ser ajustada antes do envio.</p>
+          <div class="contact-list">
+            <a class="contact-detail" id="contact-email" href="mailto:contatosuperiorgenes@gmail.com"><span><svg class="icon"><use href="#i-mail"/></svg></span><span><small>E-MAIL</small><strong>contatosuperiorgenes@gmail.com</strong></span></a>
+            <a class="contact-detail" id="contact-phone" href="#"><span><svg class="icon"><use href="#i-phone"/></svg></span><span><small>TELEFONE / WHATSAPP</small><strong>(preencher em config.js)</strong></span></a>
+            <a class="contact-detail" id="contact-instagram" href="#" target="_blank" rel="noopener noreferrer"><span><svg class="icon"><use href="#i-instagram"/></svg></span><span><small>INSTAGRAM</small><strong>Adicionar URL em config.js</strong></span></a>
+          </div>
+        </div>
+
+        <form class="brief-form reveal" id="brief-form">
+          <div class="form-heading">
+            <span class="form-icon"><svg class="icon"><use href="#i-chat"/></svg></span>
+            <div>
+              <h3>Fale sobre seu projeto</h3>
+              <p>Leva menos de um minuto.</p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="field-name">Como podemos chamar você?</label>
+            <input type="text" id="field-name" name="name" placeholder="Seu nome" required />
+          </div>
+
+          <div class="field">
+            <label for="field-business">Seu negócio / segmento</label>
+            <input type="text" id="field-business" name="business" placeholder="Ex.: loja, clínica, serviços, climatização..." />
+          </div>
+
+          <fieldset class="field service-choices">
+            <legend>Em que podemos ajudar?</legend>
+            <div class="choice-grid">
+              <label><input type="radio" name="service" value="Landing page" checked /><span>Landing page</span></label>
+              <label><input type="radio" name="service" value="Identidade visual" /><span>Identidade visual</span></label>
+              <label><input type="radio" name="service" value="Redes sociais" /><span>Redes sociais</span></label>
+              <label><input type="radio" name="service" value="Conteúdo / SEO" /><span>Conteúdo / SEO</span></label>
+              <label><input type="radio" name="service" value="Plano recorrente" /><span>Plano recorrente</span></label>
+              <label><input type="radio" name="service" value="Outro" /><span>Outro</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="field-extra">Algo mais que devemos saber? <span>(opcional)</span></label>
+            <textarea id="field-extra" name="extra" placeholder="Me conte brevemente sua ideia..."></textarea>
+          </div>
+
+          <button class="btn btn-primary btn-form" type="submit">Enviar pelo WhatsApp <svg class="icon end-icon"><use href="#i-arrow-up"/></svg></button>
+          <p class="form-error" id="form-error"></p>
+          <p class="form-disclaimer">A mensagem é preparada no seu dispositivo e só será enviada se você confirmar no WhatsApp. Não armazenamos esses dados no site.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#topo"><img class="brand-logo footer-logo" src="./assets/logo-superior-genes-full.png" alt="Superior Genes Estúdio Digital" /></a>
+        <p>Estúdio digital para páginas, identidade visual, conteúdo e presença online com mais clareza, acabamento e personalidade.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#manifesto">Essência</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <a class="back-top" href="#topo">Voltar ao topo <svg class="icon"><use href="#i-arrow-up"/></svg></a>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="current-year"></span> Superior Genes. Todos os direitos reservados.</span>
+      <span>DNA · VISÃO · EVOLUÇÃO</span>
+    </div>
+  </footer>
+
+  <a class="float-whatsapp" id="float-whatsapp" href="#" aria-label="Conversar no WhatsApp"><svg class="icon"><use href="#i-whatsapp"/></svg><span>Vamos conversar</span></a>
+
+  <dialog class="notice-dialog" id="notice-dialog">
+    <div class="notice-wrap">
+      <h2>Configuração pendente</h2>
+      <p id="notice-message">Preencha o número de WhatsApp no arquivo <code>config.js</code> para ativar os botões de contato.</p>
+      <button class="btn btn-primary" type="button" id="notice-close">Entendi</button>
+    </div>
+  </dialog>
+</body>
+</html>
